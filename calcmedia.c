@@ -15,7 +15,9 @@ int main(){
 	float n1=3, n2=5.5, n3=2.5;
 	//imprimindo a variavel global
 	printf("media: %f - # %p \r\n", media, &media);
+	//executando a função
 	float media = calcula_media(n1, n2, n3);
+	//imprimindo a variavel local
 	printf("media: %f - # %p \r\n", media, &media);
 	//acessando o valor da variavel global
 	printf("m: %f \r\n", m);
